@@ -7,7 +7,6 @@ const Message = ({ socket, userId }) => {
     const navigate = useNavigate();
     const [heading, setHeading] = useState("");
     const [txtMessage, setTxtMessage] = useState("");
-
     const [messageRoom, setMessageRoom] = useState([]);
     const txtRef = useRef();
     const [userEnter, setUserEnter] = useState(false);
